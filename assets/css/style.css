@@ -93,6 +93,18 @@
   background: teal;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
 }
+.section2Row .card p{
+  font-family: monospace;
+    font-weight: 600;
+    font-size: 25px;
+    background: chocolate;
+    color: floralwhite;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
 .section3Row .box1{
   width: 50%;
   height: 400px;
