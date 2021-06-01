@@ -105,14 +105,18 @@
     padding: 10px 0px 10px 0px;
 }
 .section3Row .box1{
-  width: 50%;
-  height: 400px;
+  width: 100%;
+}
+.section3Row .box1 .part1{
   background: seagreen;
+  height: 400px;
 }
 .section3Row .box2{
-  width: 50%;
-  height: 400px;
+  width: 100%;
+}
+.section3Row .box2 .part2{
   background: darkturquoise;
+  height: 400px;
 }
 .row.section3Row {
   width: 100%;
@@ -158,7 +162,7 @@ hr.smallline{
 .section4 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 100%;
   float: left;
 }
 .section4 .card:hover{
