@@ -165,3 +165,81 @@ hr.smallline{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 /*  */
+
+/* Start of Footer */
+/* Footer Section */
+.section5Container{
+  width: 100%;
+  background: #232323;
+  float: left;
+}
+.section5Container .footer{
+  margin-top: 70px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
+}
+.section5Container .footer .part1{
+  width: 21.25%;
+  margin-right: 5%;
+  height: auto;
+  float: left;
+  margin-top: 25px;
+}
+.section5Container .footer .part2{
+  width: 21.25%;
+  height: 200px;
+  float: left;
+  margin-top: 25px;
+}
+.section5Container .footer .part1 .title h2.titleStyle{
+  color: white;
+  font-size: 25px;
+  font-family: "Playfair Display", Arial, serif;
+}
+.section5Container .footer .part1 .title p.titleStyle{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 17px;
+  margin-top: 50px;
+}
+.section5Container .footer .part2 .title h2.titleStyle{
+  color: white;
+  font-size: 25px;
+  font-family: "Playfair Display", Arial, serif;
+}
+/* Icons */
+.section5Container .footer .part1 .title .icons{
+  margin-top: 60px;
+}
+.section5Container .footer .part1 .title .icons li{
+  border: 1px solid;
+  border-radius: 48px;
+  width: 45px;
+  height: 45px;
+  display: -webkit-inline-box;
+  right: 91%;
+  background: #383737;
+  list-style-type: none;
+  margin-right: 12px;
+  cursor: pointer;
+  color: white;
+}
+.section5Container .footer .part1 .title li a{
+  color: white;
+  text-decoration: none;
+}
+.section5Container .copyright{
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 17px;
+  float: left;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+.section5Container .copyright p a{
+  color: deepskyblue;
+  text-decoration: none;
+}
+/* End of Footer */
