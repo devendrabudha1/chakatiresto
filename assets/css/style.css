@@ -225,6 +225,15 @@ hr.smallline{
   cursor: pointer;
   color: white;
 }
+.section5Container .footer .part1 .title .icons li.twitter:hover{
+  background: deepskyblue;
+}
+.section5Container .footer .part1 .title .icons li.facebook:hover{
+  background: cornflowerblue;
+}
+.section5Container .footer .part1 .title .icons li.instagram:hover{
+  background: darkmagenta;
+}
 .section5Container .footer .part1 .title li a{
   color: white;
   text-decoration: none;
