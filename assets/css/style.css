@@ -118,11 +118,10 @@
 }
 .section2Row .rateCalculator .currency-calc{
   background: black;
-  width: 87%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   color: white;
   text-align: center;
+  padding: 10px;
 }
 .section2Row .rateCalculator .currency-calc .formDesign{
   width: 90%;
