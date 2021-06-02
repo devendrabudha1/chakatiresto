@@ -52,6 +52,30 @@
   width: 100%;
 }
 /*  Carasoul Ends */
+.containerColor{
+  background: cadetblue;
+}
+.discription{
+  padding: 20px;
+}
+.discription .box .textdiv h3{
+  font-family: monospace;
+  font-weight: 600;
+  color: white;
+}
+.discription .box p{
+  color: white;
+  font-family: cursive;
+  font-size: 19px;
+}
+.no-gutters{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.no-padding{
+  padding: 0px;
+  display: flex;
+}
 
 /* Start of Section 1 */
 .section1{
