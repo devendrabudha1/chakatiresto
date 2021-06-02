@@ -148,17 +148,56 @@
           <div class="row section2Row">
             <div class="col-lg-4">
               <div class="rateCalculator card">
-                <p>Rate Calculator</p>
+                <p class="title">Rate Calculator</p>
+                <div class="currency-calc">
+                  <h4>Currency Calculator</h4>
+                  <form class="form-group formDesign">
+                    <label for="DCname">Choose Destination Country</label>
+                    <div class="input-group">
+                      <select class="custom-select" name="DCname">
+                        <option value="bangladesh">BANGLADESH</option>
+                        <option value="indonesia">INDONESIA</option>
+                        <option value="india">INDIA</option>
+                        <option value="cambodia">CAMBODIA</option>
+                        <option selected>Nepal</option>
+                        <option value="srilanka">SRI LANKA</option>
+                        <option value="malaysia">MALAYSIA</option>
+                        <option value="philippines">PHILIPPINES</option>
+                        <option value="pakistan">PAKISTAN</option>
+                        <option value="usa">UNITED STATES</option>
+                        <option value="vietnam ">VIETNAM</option>
+                      </select>
+                    </div>
+                    <label for="DMethod">Choose Delivery Method</label>
+                    <div class="input-group">
+                      <select class="custom-select" name="DMethod">
+                        <option value="bTransfer">Bank Transfer</option>
+                        <option value="cPickup">Cash Pickup</option>
+                      </select>
+                    </div>
+                    <label for="Sfee">You send (Service fee and ATM fee excluded)</label>
+                    <div class="sFee">
+                      <input type="text" class="form-control" name="SFee" value="100">
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">JPY</button>
+                      </div>
+                    </div>
+                    <p>Exchange Rate:&&nbsp;&&nbsp;1JPY=1.0475NPR</p><br>
+                    <p>Total Fees: &&nbsp;&&nbsp;&&nbsp;&&nbsp; 500JPY</p>
+                  </form>
+                </div>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="trackTransaction card">
-                <p>Track Transaction</p>
+                <p class="title">Track Transaction</p>
+
               </div>
             </div>
             <div class="col-lg-4">
               <div class="tExchangeRate card">
-                <p>Today's Exchange Rate 1 JPY</p>
+                <p class="title">Today's Exchange Rate 1 JPY</p>
+
               </div>
             </div>
           </div>

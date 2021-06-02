@@ -112,17 +112,33 @@
 }
 .section2Row .card{
   width: 99%;
-  height: 400px;
+  height: auto;
   background: teal;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
 }
-.section2Row .card p{
+.section2Row .rateCalculator .currency-calc{
+  background: black;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+}
+.section2Row .rateCalculator .currency-calc .formDesign{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section2Row .rateCalculator .currency-calc .formDesign .sFee{
+  display: flex;
+}
+.section2Row .card p.title{
   font-family: monospace;
     font-weight: 600;
     font-size: 25px;
     background: chocolate;
     color: floralwhite;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
