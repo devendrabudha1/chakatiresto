@@ -209,18 +209,11 @@ hr.smallline{
   float: left;
 }
 .section5Container .footer .part1{
-  width: 21.25%;
-  margin-right: 5%;
   height: auto;
   float: left;
   margin-top: 25px;
 }
-.section5Container .footer .part2{
-  width: 21.25%;
-  height: 200px;
-  float: left;
-  margin-top: 25px;
-}
+
 .section5Container .footer .part1 .title h2.titleStyle{
   color: white;
   font-size: 25px;
@@ -231,11 +224,7 @@ hr.smallline{
   font-size: 17px;
   margin-top: 50px;
 }
-.section5Container .footer .part2 .title h2.titleStyle{
-  color: white;
-  font-size: 25px;
-  font-family: "Playfair Display", Arial, serif;
-}
+
 /* Icons */
 .section5Container .footer .part1 .title .icons{
   margin-top: 60px;
@@ -272,8 +261,8 @@ hr.smallline{
   color: rgba(255, 255, 255, 0.7);
   font-size: 17px;
   float: left;
-  padding-top: 90px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .section5Container .copyright p a{
   color: deepskyblue;
