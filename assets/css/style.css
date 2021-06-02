@@ -164,9 +164,6 @@
 }
 /* End of section 1 part 2 */
 hr.separationLine{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     border: 3px solid #8d703b;
     margin: 0px;
 }
