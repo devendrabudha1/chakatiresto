@@ -17,13 +17,12 @@
   width: 30%;
 }
 .navSection .logo img{
-  width: 43%;
-  height: 40px;
+  width: 60%;
+  height: 80px;
 }
 .pageWrapper .navSection nav.navMenu{
   width: 100%;
   background-color: darkgreen;
-  padding: 20px;
 }
 .pageWrapper .navSection nav.navMenu ul{
   margin-left: auto;
