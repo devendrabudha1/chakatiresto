@@ -11,18 +11,21 @@
 .navSection{
   width: 100%;
   height: auto;
-  margin: 0px 0px 90px 0px;
+  margin: 0px 0px 111px 0px;
 }
 .navSection .logo{
   width: 30%;
 }
 .navSection .logo img{
-  width: 60%;
-  height: 80px;
+  width: 32%;
+  height: 95px;
+}
+#active{
+  background: darkcyan;
 }
 .pageWrapper .navSection nav.navMenu{
   width: 100%;
-  background-color: darkgreen;
+  background-color: darkslategrey;
 }
 .pageWrapper .navSection nav.navMenu ul{
   margin-left: auto;
@@ -54,19 +57,6 @@
 .containerColor{
   background: cadetblue;
 }
-.discription{
-  padding: 20px;
-}
-.discription .box .textdiv h3{
-  font-family: monospace;
-  font-weight: 600;
-  color: white;
-}
-.discription .box p{
-  color: white;
-  font-family: cursive;
-  font-size: 19px;
-}
 .no-gutters{
   margin-left: 0px;
   margin-right: 0px;
@@ -75,92 +65,52 @@
   padding: 0px;
   display: flex;
 }
-
-/* Start of Section 1 */
-.section1{
-  width: 100%;
-  padding-top: 30px;
-  background: currentColor;
-}
-.section1Row a{
-  color: white;
-  font-weight: 600;
-}
-.section1Row a:hover{
-  text-decoration: none;
-  color: white;
-}
-.section1Row .box:hover{
-  background: rgba(2,150,66,0.95);
-}
-.section1Row .box{
-  width: 100%;
-  height: 50px;
-  text-align: center;
-  line-height: 2.7;
-}
-.section1Row .box p{
-  display: contents;
-  font-size: 20px;
-}
-/* End of Section 1 */
-
-/* Section1 Part 2 */
-.section2Row{
-  margin-top: 30px;
-}
-.section2Row .card{
-  width: 99%;
+/* servesLine */
+.servicesLine{
+  width: 86%;
   height: auto;
-  background: teal;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+  margin-left: 7%;
+  margin-right: 7%;
+  display: inline-flex;
+  margin-bottom: 70px;
 }
-.section2Row .rateCalculator .currency-calc{
-  background: black;
+.servicesLine .box1{
+  width: 22%;
+  height: auto;
+  margin-top: 10px;
+  background: white;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.servicesLine .box{
+  width: 22%;
+  height: auto;
+  margin-top: 10px;
+  background: white;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-left: 2%;
+}
+.servicesLine .box img,.servicesLine .box1 img{
   width: 100%;
-  color: white;
+  height: 190px;
+}
+.servicesLine .box p.serviceCap,.servicesLine .box1 p.serviceCap{
+  font-size: 20px;
   text-align: center;
-  padding: 10px;
+  background: cadetblue;
+  color: white;
+  transition: 0.3s;
+  height: 50px;
+  line-height: 2.3;
+  margin-bottom: 0px;
 }
-.section2Row .rateCalculator .currency-calc .formDesign{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+.servicesLine .box:hover,.servicesLine .box1:hover{
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.section2Row .rateCalculator .currency-calc .formDesign .sFee{
-  display: flex;
-}
-.section2Row .card p.title{
-  font-family: monospace;
-    font-weight: 600;
-    font-size: 25px;
-    background: chocolate;
-    color: floralwhite;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-}
-.section3Row .box1{
-  width: 100%;
-}
-.section3Row .box1 .part1{
-  background: seagreen;
-  height: 400px;
-}
-.section3Row .box2{
-  width: 100%;
-}
-.section3Row .box2 .part2{
-  background: darkturquoise;
-  height: 400px;
-}
-.row.section3Row {
-  width: 100%;
-  margin: 30px 0px 0px 0px;
-}
-/* End of section 1 part 2 */
+/* End Of Serveces Line */
+
 hr.separationLine{
     border: 3px solid #8d703b;
     margin: 0px;
@@ -206,6 +156,7 @@ hr.smallline{
   transition: 0.3s;
   width: 100%;
   float: left;
+  margin-bottom: 30px;
 }
 .section4 .card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -287,3 +238,147 @@ hr.smallline{
   text-decoration: none;
 }
 /* End of Footer */
+
+
+/* Team.html */
+.team-boxed {
+    color: #313437;
+    background-color: currentcolor;
+}
+
+.team-boxed p {
+    color: #7d8285;
+}
+
+.team-boxed h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .team-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.team-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: "Playfair Display", Arial, serif;
+}
+
+/* Hr Line */
+  hr.longLine{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #8d703b;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+  hr.shortLine{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #8d703b;
+    margin-bottom: 40px;
+    margin-top: 2px;
+  }
+/* End */
+
+.team-boxed .intro p {
+    margin-bottom: 0;
+}
+
+.team-boxed .people {
+    padding: 50px 0;
+}
+
+.team-boxed .item {
+    text-align: center;
+}
+
+.team-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.team-boxed .item .box:hover{
+  box-shadow: 0 8px 16px 0 rgb(55 78 78);
+}
+
+.team-boxed .item .name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit;
+    font-family: 'Simple Brush Script', sans-serif;
+
+}
+
+.team-boxed .item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: lightslategrey;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: 'Simple Brush Script', sans-serif;
+}
+
+.team-boxed .item .description {
+    font-size: 15px;
+}
+
+.team-boxed .item img {
+    max-width: 160px;
+    max-height: 150px;
+}
+
+.team-boxed .social {
+    font-size: 18px;
+    color: #a2a8ae;
+}
+
+.team-boxed .social:hover {
+    font-size: 18px;
+    color: #f80808;
+}
+
+.team-boxed .social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+    padding: 6px;
+}
+
+.team-boxed .social a:hover {
+    opacity: 1;
+}
+
+.fa {
+    font-size: 28px;
+}
+
+.intro h1 {
+    color: #fff;
+}
+
+.intro {
+    margin-top: 23px;
+}
+
+.box img {
+    cursor: pointer;
+    width: 9em;
+}
+/* End of Team.html */
