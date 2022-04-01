@@ -2,6 +2,28 @@
   margin: 0px;
   padding: 0px;
 }
+/* Background Image & Slogan */
+.roomBackImage{
+  width: 100%;
+  height: 230px;
+  background: url('../image/bg_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.roomBackImage .slogan{
+  padding-top: 70px;
+  color: white;
+  text-align: center;
+}
+.roomBackImage .slogan h1{
+  font-size: 40px;
+  font-family: "Playfair Display", Arial, serif;
+}
+.roomBackImage .slogan p{
+  font-size: 17px;
+}
+/* End of Background Image & Slogan */
 
 /* Start of NavMenu CSS */
 .pageWrapper{
@@ -67,29 +89,20 @@
 }
 /* servesLine */
 .servicesLine{
-  width: 86%;
+  width: 100%;
   height: auto;
   margin-left: 7%;
   margin-right: 7%;
   display: inline-flex;
   margin-bottom: 70px;
 }
-.servicesLine .box1{
-  width: 22%;
+
+.servicesLine .box,.servicesLine .box{
   height: auto;
   margin-top: 10px;
   background: white;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-.servicesLine .box{
-  width: 22%;
-  height: auto;
-  margin-top: 10px;
-  background: white;
-  float: left;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin-left: 2%;
 }
 .servicesLine .box img,.servicesLine .box1 img{
   width: 100%;
@@ -382,3 +395,48 @@ hr.smallline{
     width: 9em;
 }
 /* End of Team.html */
+
+/* Start of About.html */
+/* Section 1 */
+.aboutSection1{
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background-color: gainsboro;
+}
+.abpoutSection1 .part1{
+  width: 50%;
+  height: auto;
+  margin-top: 50px;
+}
+.aboutSection1 .part1 img{
+  width: 80%;
+  height: 700px;
+  margin-left: 10%;
+}
+.aboutSection1 .part2{
+  width: 50%;
+  height: auto;
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 7%;
+  margin-top: 40px;
+}
+.aboutSection1 .part2 span .heading{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.aboutSection1 .part2 span h1{
+  margin-bottom: 60px;
+  font-family: "Playfair Display", Arial, serif;
+}
+.aboutSection1 .part2 span p.aboutHotel{
+  color: gray;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+/* End of about.html */
