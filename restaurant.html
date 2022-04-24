@@ -67,8 +67,20 @@
         <h1>Restaurant</h1>
       </div>
     </div>
-
-
+    <div class="row menuItems" style="margin: 0px;">
+      <div class="col-sm-2 sidebar">
+        <a class="active" href="menuItems/nepaliSet.html">Nepali Set</a>
+        <a href="menuItems/momo.html">MO:MO</a>
+        <a href="menuItems/choumin.html">Choumin</a>
+        <a href="menuItems/nepaliSnacks.html">Nepali Snacks</a>
+        <a href="menuItems/indianSet.html">Indian Set</a>
+        <a href="menuItems/indianSnacks.html">Indian Snacks</a>
+        <a href="menuItems/drinks.html">Drinks and Beverage</a>
+      </div>
+      <div id="menuLoad" class="col-sm-9">
+        <p>Nepali Set</p>
+      </div>
+    </div>
 <!-- End of SERVICES -->
     <hr class="separationLine">
     <div class="section4Container">
@@ -120,3 +132,19 @@
 
 </body>
 </html>
+<script>
+	$(".sidebar a").on("click", function(){
+		let url=$(this).attr("href");
+		$("#menuLoad").load(url);
+		return false;
+	});
+  $(document).ready(function() {
+   $(".sidebar a").click(function(event) {
+
+      $(".sidebar a").removeClass("active"); //Remove any "active" class
+      $(this).addClass("active"); //Add "active" class to selected tab // 
+      // $(activeTab).show(); //Fade in the active content
+ });
+});
+
+</script>
